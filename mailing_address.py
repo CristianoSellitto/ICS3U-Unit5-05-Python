@@ -2,7 +2,7 @@
 
 # Created by Cristiano Sellitto
 # Created in December 2022
-# Formats a mailing address (Canada Post)
+# This program formats a mailing address (Canada Post)
 
 
 def format_mailing_address(
@@ -14,6 +14,8 @@ def format_mailing_address(
     postal_code,
     apartment_number=None,
 ):
+    # Formats a mailing address (Canada Post)
+
     address = full_name + "\n"
     if apartment_number != None:
         address = address + apartment_number + "-"
